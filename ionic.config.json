@@ -1,0 +1,7 @@
+{
+  "name": "ionic css contain",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
