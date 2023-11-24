@@ -10,6 +10,66 @@ ion-card {
     z-index: 10;
 }
 
-.containNone {
+.contain-none {
     contain: none;
 }
+
+.contain-size {
+    contain: size;
+  }
+
+  .contain-layout {
+    contain: layout;
+  }
+
+  .contain-style {
+    contain: style;
+  }
+
+  .contain-paint {
+    contain: paint;
+  }
+
+  .contain-size-layout {
+    contain: size layout;
+  }
+
+  .contain-size-style {
+    contain: size style;
+  }
+
+  .contain-size-paint {
+    contain: size paint;
+  }
+
+  .contain-layout-style {
+    contain: layout style;
+  }
+
+  .contain-layout-paint {
+    contain: layout paint;
+  }
+
+  .contain-style-paint {
+    contain: style paint;
+  }
+
+  .contain-size-layout-style {
+    contain: size layout style;
+  }
+
+  .contain-size-layout-paint {
+    contain: size layout paint;
+  }
+
+  .contain-size-style-paint {
+    contain: size style paint;
+  }
+
+  .contain-layout-style-paint {
+    contain: layout style paint;
+  }
+
+  .contain-all {
+    contain: size layout style paint;
+  }

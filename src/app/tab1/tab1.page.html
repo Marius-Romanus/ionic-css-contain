@@ -19,7 +19,7 @@
     <ion-icon color="dark" name="checkmark-circle" size="large" class="icon-card-selected"></ion-icon>
   </ion-card>
 
-  <ion-card class="containNone">
+  <ion-card [class]="c" *ngFor="let c of class">
     <ion-card-header color="primary">
       <ion-card-title>Contain None example</ion-card-title>
       <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
